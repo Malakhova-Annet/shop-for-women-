@@ -1,0 +1,547 @@
+.wrapper {
+    position: relative;
+    background-size: cover;
+}
+
+.header_top {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.mailLink {
+    display: inline-block;
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+    margin-bottom: 26px;
+}
+
+.mailLink:before {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 12px;
+    content: "";
+    width: 21px;
+    height: 13px;
+    background: url("../images/email.png");
+}
+.right {
+    float: right;
+}
+
+.delivery {
+    display: inline-block;
+    margin-right: 150px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.account {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 50px;
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+}
+
+.account:before {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 12px;
+    content: "";
+    width: 25px;
+    height: 14px;
+    background: url("../images/key.png");
+}
+
+.menu {
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+}
+
+.menu_item {
+    display: inline-block;
+}
+
+.menu_item a {
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu_item:after {
+    content: "|";
+    margin-left: 4px;
+}
+
+.menu_item:last-child:after {
+    display: none;
+}
+
+.header_bottom {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    background-color: #000;
+}
+
+.logo {
+    display: block;
+    float: left;
+    width: 122px;
+    height: 29px;
+    margin-right: 35px;
+    background: url("../images/bohem.png");
+}
+
+.menu_bottom {
+    display: inline-block;
+}
+
+.menu_bottom_item {
+    display: inline-block;
+}
+
+.menu_bottom_item a {
+    font-size: 14px;
+    padding: 0 17px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.basket {
+    float: right;
+    color: #fff;
+    text-decoration: none;
+}
+
+.basket:after {
+    display: inline-block;
+    content: '';
+    width: 29px;
+    height: 21px;
+    margin-left: 2px;
+    background: url("../images/basketnew.png");
+}
+
+.menuCont {
+    position: static;
+    float: left;
+    display: block;
+    padding: 0;
+    border-top: none;
+}
+
+.header_formCont {
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+}
+
+.header_form {
+    display: block;
+    position: relative;
+}
+
+.header_form input[type="search"] {
+    border: none;
+    padding-right: 25px;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+}
+
+.header_form button {
+    background: #000 url(../images/glass.png);
+    border: none;
+    width: 28px;
+    height: 28px;
+    font-size: 0;
+    position: absolute;
+    bottom: 3px;
+    right: 0;
+}
+
+.searchIcon {
+    display: none;
+}
+
+
+.slider {
+    position: relative;
+}
+
+.slider img {
+    width: 100%;
+    height: auto;
+}
+
+.slick-dots {
+    position: absolute;
+    list-style: none;
+    line-height: 70px;
+    text-align: center;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    display: block;
+    width: 100%;
+}
+
+.slick-dots li {
+    display: inline-block;
+    color: #7f7f7f;
+    margin: 0;
+}
+
+.slick-dots li button:before {
+    font-size: 40px;
+    color: black;
+    font-stretch: normal;
+}
+
+article {
+    padding-bottom: 20px;
+}
+
+.tumba h1 {
+    font-weight: normal;
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.font {
+    font-size: 0;
+}
+
+.photo {
+    display: inline-block;
+    float: left;
+    width: 33.3%;
+    padding: 0 10px;
+}
+
+.photo img {
+    width: 100%;
+    height: auto;
+}
+
+.sale h2 {
+    font-weight: normal;
+    font-size: 14px;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.text_sp {
+    text-decoration: line-through;
+}
+
+.btn_art {
+    padding-bottom: 20px;
+}
+
+.btn_art_item {
+    display: block;
+    padding: 16px 19px;
+    border: 1px solid #b0ac9c;
+    font-size: 14px;
+    font-family: 'PT Sans', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #b0ac9c;
+    width: 210px;
+    left: 0;
+    right: 0;
+    bottom: 90px;
+    margin: auto;
+    text-align: center;
+}
+
+.main {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.big_photo {
+    position: relative;
+}
+
+.big_photo img {
+    width: 100%;
+    height: auto;
+}
+
+.blake_sale {
+    position: absolute;
+    width: 71px;
+    border-bottom: 2px solid #000;
+    left: 0;
+    right: 0;
+    bottom: 50%;
+    margin: auto;
+}
+
+.blake_sale a {
+    color: #000;
+    font-size: 24px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    letter-spacing: 7px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.footer {
+    background-color: black;
+    padding: 30px 0 0 0;
+}
+
+.location {
+    width: 25%;
+    float: left;
+}
+
+.location a {
+    font-size: 14px;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.email {
+    font-size: 14px;
+    font-family: sans-serif;
+    text-transform: none;
+}
+
+.loc_item {
+    text-align: right;
+}
+
+.btn {
+    display: inline-block;
+    border: 2px solid #fff;
+    padding: 15px;
+}
+
+.btn a {
+    font-size: 14px;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.footer_cp {
+    float: left;
+    padding: 24px 0;
+}
+
+.footer_cp,
+.koda {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.with480 {
+    display: none;
+}
+@media screen and (max-width: 1200px) {
+    .delivery {
+        margin-right: 50px;
+    }
+
+    .delivery p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .with1170 {
+        display: block;
+    }
+    .delivery {
+        display: none;
+    }
+    .header_form input[type="search"] {
+        border: none;
+        border-bottom: none;
+    }
+    .loc_item {
+        text-align: left;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+    .delivery {
+        display: none;
+    }
+    .account {
+        margin-right: 35px;
+    }
+
+    .menu_bottom {
+        display: none;
+    }
+    .menu_bottom {
+        display: block;
+    }
+    .menu_bottom_item {
+        display: block;
+    }
+    .menu_bottom_item a {
+        display: block;
+        padding: 20px 0;
+        color: #fff;
+        font-size: 18px;
+        text-transform: uppercase;
+        text-align: center;
+        text-decoration: none;
+    }
+    .menuCont {
+        display: none;
+        position: absolute;
+        padding-top: 28px;
+        padding-bottom: 30px;
+        border-top: 1px solid rgba(255,255,255,.8);
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: rgba(0,0,0,.8);
+        z-index: 2;
+    }
+    .menuCont.open {
+        display: block;
+    }
+    .logo {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        width: 122px;
+        height: 29px;
+        background: url(../images/bohem.png);
+    }
+    .toggleMobMenu {
+        float: left;
+        width: 40px;
+        margin-top: 3px;
+    }
+
+    .toggleMobMenu span {
+        display: block;
+        height: 2px;
+        margin-bottom: 6px;
+        background-color: #fff;
+    }
+
+    .toggleMobMenu span:last-child {
+        margin-bottom: 0;
+    }
+    .header__form input[type="search"] {
+    border: none;
+    padding-right: 25px;
+    border-bottom: 1px solid #000;
+}
+    .header_form button{
+        display: none;
+    }
+
+    .with1170 {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .with1170 {
+        display: none;
+    }
+    .with480 {
+        display: block;
+    }
+    .logo {
+        display: none;
+    }
+    .footer-menu {
+        width: 50%;
+        float: left;
+    }
+
+    .location {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .footer-button {
+        width: 50%;
+    }
+
+    .loc_item {
+        text-align: left;
+    }
+
+    .footer_cp {
+        padding: 24px 15px;
+    }
+
+    .slick-dots {
+        position: absolute;
+        list-style: none;
+        text-align: center;
+        padding: 0;
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+
+    .slick-dots li {
+        display: inline-block;
+        color: #7f7f7f;
+    }
+
+    .slick-dots li button:before {
+        font-size: 35px;
+        color: black;
+        font-stretch: normal;
+        line-height: 100px;
+    }
+
+    .btn_art_item {
+        font-size: 18px;
+    }
+
+    .sale h2 {
+        font-size: 18px;
+    }
+
+    .tumba h1 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .big_photo img {
+        display: none;
+    }
+
+    .photo_two {
+        position: relative;
+        height: 185px;
+        background-image: url(../images/7new.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
